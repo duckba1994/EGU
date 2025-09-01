@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/EGU/static/css/main.7de7985f.css",
-    "main.js": "/EGU/static/js/main.6c148f8b.js",
+    "main.js": "/EGU/static/js/main.70a14ffd.js",
     "static/js/453.96453769.chunk.js": "/EGU/static/js/453.96453769.chunk.js",
     "static/media/BG.png": "/EGU/static/media/BG.ed6c31edc7fa3b83ed88.png",
     "static/media/trace.svg": "/EGU/static/media/trace.28e47c7f89ba6d9694e9c591fa248da1.svg",
+    "static/media/cctv.png": "/EGU/static/media/cctv.6d1fbcbfafe743b0a76d.png",
+    "static/media/customer-service.png": "/EGU/static/media/customer-service.42fb4e60f5b3b85e5e00.png",
+    "static/media/coding.png": "/EGU/static/media/coding.284df2778d18f48f8570.png",
+    "static/media/data-center.png": "/EGU/static/media/data-center.b3516f41cbc61a125e7a.png",
     "static/media/logo.svg": "/EGU/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EGU/index.html",
     "main.7de7985f.css.map": "/EGU/static/css/main.7de7985f.css.map",
-    "main.6c148f8b.js.map": "/EGU/static/js/main.6c148f8b.js.map",
+    "main.70a14ffd.js.map": "/EGU/static/js/main.70a14ffd.js.map",
     "453.96453769.chunk.js.map": "/EGU/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7de7985f.css",
-    "static/js/main.6c148f8b.js"
+    "static/js/main.70a14ffd.js"
   ]
 }
