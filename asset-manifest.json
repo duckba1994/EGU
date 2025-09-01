@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/duckba1994/EGU.git/static/css/main.7de7985f.css",
-    "main.js": "/duckba1994/EGU.git/static/js/main.595d655a.js",
-    "static/js/453.96453769.chunk.js": "/duckba1994/EGU.git/static/js/453.96453769.chunk.js",
-    "static/media/BG.png": "/duckba1994/EGU.git/static/media/BG.ed6c31edc7fa3b83ed88.png",
-    "static/media/trace.svg": "/duckba1994/EGU.git/static/media/trace.28e47c7f89ba6d9694e9c591fa248da1.svg",
-    "static/media/logo.svg": "/duckba1994/EGU.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/duckba1994/EGU.git/index.html",
-    "main.7de7985f.css.map": "/duckba1994/EGU.git/static/css/main.7de7985f.css.map",
-    "main.595d655a.js.map": "/duckba1994/EGU.git/static/js/main.595d655a.js.map",
-    "453.96453769.chunk.js.map": "/duckba1994/EGU.git/static/js/453.96453769.chunk.js.map"
+    "main.css": "/EGU/static/css/main.7de7985f.css",
+    "main.js": "/EGU/static/js/main.6c148f8b.js",
+    "static/js/453.96453769.chunk.js": "/EGU/static/js/453.96453769.chunk.js",
+    "static/media/BG.png": "/EGU/static/media/BG.ed6c31edc7fa3b83ed88.png",
+    "static/media/trace.svg": "/EGU/static/media/trace.28e47c7f89ba6d9694e9c591fa248da1.svg",
+    "static/media/logo.svg": "/EGU/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/EGU/index.html",
+    "main.7de7985f.css.map": "/EGU/static/css/main.7de7985f.css.map",
+    "main.6c148f8b.js.map": "/EGU/static/js/main.6c148f8b.js.map",
+    "453.96453769.chunk.js.map": "/EGU/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7de7985f.css",
-    "static/js/main.595d655a.js"
+    "static/js/main.6c148f8b.js"
   ]
 }
