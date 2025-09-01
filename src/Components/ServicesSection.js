@@ -1,10 +1,41 @@
 import React from 'react';
+import serverIcon from '../../src/assets/data-center.png'; // 1. Import รูปเข้ามา
+import CCTVIcon from '../../src/assets/cctv.png'; // 1. Import รูปเข้ามา
+import lanIcon from '../../src/assets/lan.png'; // 1. Import รูปเข้ามา
+import codingIcon from '../../src/assets/coding.png'; // 1. Import รูปเข้ามา
+import supportIcon from '../../src/assets/customer-service.png'; // 1. Import รูปเข้ามา
+
+
+
+
 
 // นี่คือ SVG Icon ตัวอย่างนะครับ เราสามารถเปลี่ยนได้ในอนาคต
 const HardwareIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-blue-600 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
     <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
   </svg>
+);
+
+const HardwareServerIcon = () => (
+    <img src={serverIcon} alt="Server Icon" className="h-12 w-12 mx-auto" />
+
+);
+const HardwareCCTVIcon = () => (
+    <img src={CCTVIcon} alt="Server Icon" className="h-12 w-12 mx-auto" />
+
+);
+const HardwareLanIcon = () => (
+    <img src={lanIcon} alt="Server Icon" className="h-12 w-12 mx-auto" />
+
+);
+
+const SoftwareCodingIcon = () => (
+    <img src={codingIcon} alt="Server Icon" className="h-12 w-12 mx-auto" />
+
+);
+const SoftwareSupportIcon = () => (
+    <img src={supportIcon} alt="Server Icon" className="h-12 w-12 mx-auto" />
+
 );
 
 const SoftwareIcon = () => (
@@ -29,17 +60,17 @@ const ServicesSection = () => {
   // --- คุณสามารถแก้ไขข้อมูลบริการได้ตรงนี้ ---
   const hardwareServices = [
     {
-      icon: <HardwareIcon />,
+      icon: <HardwareServerIcon />,
       title: 'ติดตั้ง Server & Data Center',
       description: 'บริการให้คำปรึกษา ออกแบบ และติดตั้งระบบเซิร์ฟเวอร์สำหรับองค์กรทุกขนาด',
     },
     {
-      icon: <HardwareIcon />,
+      icon: <HardwareCCTVIcon />,
       title: 'ระบบกล้องวงจรปิด (CCTV)',
       description: 'ติดตั้งระบบกล้องวงจรปิดเพื่อความปลอดภัย ทั้งภายในและภายนอกอาคาร',
     },
     {
-      icon: <HardwareIcon />,
+      icon: <HardwareLanIcon />,
       title: 'วางระบบสาย LAN & Network',
       description: 'บริการเดินสาย LAN, Fiber Optic และติดตั้งระบบเครือข่ายไร้สาย (Wi-Fi)',
     },
@@ -47,12 +78,12 @@ const ServicesSection = () => {
 
   const softwareServices = [
     {
-      icon: <SoftwareIcon />,
+      icon: <SoftwareCodingIcon />,
       title: 'โปรแกรมสำเร็จรูป',
       description: 'จำหน่ายและติดตั้งโปรแกรมสำเร็จรูปพร้อมใช้งานสำหรับธุรกิจประเภทต่างๆ',
     },
     {
-      icon: <SoftwareIcon />,
+      icon: <SoftwareSupportIcon />,
       title: 'IT Support & Maintenance',
       description: 'บริการดูแลรักษาระบบคอมพิวเตอร์และเครือข่ายรายเดือน/รายปี (MA)',
     },
